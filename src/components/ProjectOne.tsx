@@ -60,18 +60,6 @@ export default function ProjectOne() {
         demonstrating the effectiveness of our approach in aligning the
         predicted points more closely with the actual positions of the Aruco
         codes.
-        <div id="projectOneImages">
-          <img
-            className="pOneImgSize"
-            src="https://i.ibb.co/VQVZcRz/image.gif"
-            alt=""
-          />
-          <img
-            className="pOneImgSize"
-            src="https://i.ibb.co/p0QxmMd/cameratrajectory-ezgif-com-video-to-gif-converter.gif"
-            alt=""
-          />
-        </div>
         <br />
         More information about our work can be found in our{" "}
         <a
@@ -83,6 +71,18 @@ export default function ProjectOne() {
         </a>
         .
       </p>
+      <div id="projectOneImages">
+        <img
+          className="pOneImgSize"
+          src="https://i.ibb.co/VQVZcRz/image.gif"
+          alt=""
+        />
+        <img
+          className="pOneImgSize"
+          src="https://i.ibb.co/p0QxmMd/cameratrajectory-ezgif-com-video-to-gif-converter.gif"
+          alt=""
+        />
+      </div>
     </>
   );
 }
