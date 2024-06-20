@@ -272,6 +272,9 @@ footer {
   .evenProjectButton {
     margin-bottom: 10px;
   }
+  .oddProjectButton {
+    margin-bottom: 10px;
+  }
   #img-about {
     flex-direction: column;
   }
