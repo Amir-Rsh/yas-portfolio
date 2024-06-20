@@ -1,0 +1,342 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  flex-direction: column;
+}
+nav {
+  margin: 0;
+  background-color: rgb(211, 245, 211);
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: large;
+  width: 100%;
+  flex-direction: row;
+  box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.5);
+  color: rgb(108, 113, 108);
+  position: fixed;
+}
+p {
+  margin: 0px;
+}
+.navElement {
+  margin-left: 30px;
+  transition: 0.3s transform ease;
+}
+.navElement:hover {
+  transform: scale(1.4);
+  color: darkgreen;
+  cursor: pointer;
+}
+.navElement-right {
+  margin-right: 30px;
+  margin-left: auto;
+  transition: 0.3s transform ease;
+}
+.navElement-right:hover {
+  transform: scale(1.4);
+  color: darkgreen !important;
+  cursor: pointer;
+}
+#img-about {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.projects-div {
+  border-style: solid;
+  border-color: transparent;
+  border-width: 3px;
+  transition: 0.5s border-color ease;
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  border-radius: 4%;
+  margin-top: 60px;
+  padding: 30px;
+}
+.project-one:hover {
+  border-color: darkgreen;
+}
+h4 {
+  margin: 7px;
+}
+.projectInfo {
+  width: 600px;
+  word-spacing: 7px;
+  line-height: 30px;
+  margin: 20px;
+}
+.evenProjectButton {
+  border-style: none;
+  width: 150px;
+  height: 50px;
+  background-color: darkgreen;
+  color: white;
+  margin-top: 20px;
+  border-radius: 5%;
+  cursor: pointer;
+  margin-left: 75%;
+}
+#contactDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+#scrollToTopButton {
+  border-radius: 20%;
+  border-style: solid;
+  padding: 20px;
+  position: absolute;
+  right: 43dvw;
+  text-align: center;
+  cursor: pointer;
+}
+#aboutMeInfo {
+  word-spacing: 5px;
+  line-height: 30px;
+}
+.projectImages {
+  height: 250px;
+  width: 500px;
+  border-radius: 5%;
+  margin-top: 20px;
+}
+.oddProjectButton {
+  border-style: none;
+  width: 150px;
+  height: 50px;
+  background-color: darkgreen;
+  color: white;
+  margin-top: 40px;
+  border-radius: 5%;
+  cursor: pointer;
+}
+#yasImage {
+  border-bottom-left-radius: 5%;
+  border-top-left-radius: 5%;
+  height: 600px;
+}
+#aboutYas {
+  background-color: rgb(219, 219, 219);
+  height: 560px;
+  margin: 0px;
+  border-bottom-right-radius: 5%;
+  border-top-right-radius: 5%;
+  padding: 20px;
+  width: 600px;
+}
+#yasTitle {
+  color: darkgreen;
+  margin-bottom: 0px;
+}
+#yasProfession {
+  font-size: small;
+  margin-bottom: 40px;
+}
+#techStack {
+  font-size: 0px;
+}
+footer {
+  height: 160px;
+  background-color: darkgreen;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: 40px;
+  position: absolute;
+  width: 100%;
+}
+#projectOneImages {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px 50px 0px;
+}
+.pOneImgSize {
+  width: 500px;
+}
+#projectOneText {
+  width: 80%;
+  margin: 80px auto 40px auto;
+  font-size: 19px;
+  word-spacing: 5px;
+  line-height: 30px;
+}
+
+@media (max-width: 1350px) {
+  .projectInfo {
+    width: 400px;
+    word-spacing: 4px;
+    line-height: 20px;
+  }
+  .evenProjectButton {
+    margin-left: 62%;
+  }
+  #contactDetails {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 1150px) {
+  .projectInfo {
+    width: 300px;
+    word-spacing: 3px;
+    line-height: 20px;
+  }
+  #aboutMeInfo {
+    word-spacing: 3px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 950px) {
+  h2 {
+    text-align: center !important;
+  }
+  .projectInfo {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+  .projectImages {
+    height: 0;
+    width: 0;
+    margin: 0px;
+  }
+  .evenProjectButton {
+    margin-left: 0px;
+  }
+  .textOfProject {
+    text-align: center !important;
+  }
+  #scrollToTopButton {
+    right: 30px;
+  }
+}
+@media (max-width: 820px) {
+  #yasImage {
+    height: 400px;
+  }
+  #aboutYas {
+    background-color: rgb(219, 219, 219);
+    height: 360px;
+  }
+  #additionalAboutInfo {
+    font-size: 0px;
+  }
+}
+@media (max-width: 740px) {
+  #yasProfession {
+    font-size: small;
+    margin-bottom: 20px;
+  }
+  #aboutYas {
+    padding: 0px;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #aboutMeInfo {
+    word-spacing: 2px;
+    line-height: 20px;
+    font-size: small;
+  }
+  #projectOneImages {
+    flex-direction: column;
+  }
+}
+@media (max-width: 590px) {
+  .pOneImgSize {
+    width: 400px;
+  }
+  #img-about {
+    flex-direction: column;
+  }
+  #yasImage {
+    width: 400px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5%;
+    margin: auto;
+  }
+  #aboutYas {
+    padding: 0px;
+    width: 380px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-right-radius: 0;
+    margin: auto;
+    border-bottom-left-radius: 5%;
+    height: 300px;
+  }
+  #secondAboutParagraph {
+    font-size: 0px;
+  }
+  #techStack {
+    font-size: small;
+  }
+  nav {
+    font-size: small !important;
+  }
+  .projectInfo {
+    width: 400px;
+    margin: 0;
+  }
+  .navElement {
+    margin-left: 10px;
+  }
+  .navElement-right {
+    margin-right: 10px;
+  }
+
+  footer {
+    flex-direction: column;
+    height: fit-content;
+  }
+  #scrollToTopButton {
+    position: relative;
+    right: auto;
+  }
+  #contactDetails {
+    margin: 0;
+  }
+  #projectOneText {
+    width: 80%;
+    font-size: 14px;
+    word-spacing: 3px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 410px) {
+  .projectInfo {
+    width: 300px;
+  }
+  #aboutYas {
+    width: 280px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #yasImage {
+    width: 300px;
+  }
+  nav {
+    font-size: 11px !important;
+  }
+  .pOneImgSize {
+    width: 300px;
+  }
+}
