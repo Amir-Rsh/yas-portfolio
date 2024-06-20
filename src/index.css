@@ -269,6 +269,9 @@ footer {
   .pOneImgSize {
     width: 400px;
   }
+  .evenProjectButton {
+    margin-bottom: 10px;
+  }
   #img-about {
     flex-direction: column;
   }
