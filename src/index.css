@@ -5,6 +5,7 @@ body {
   justify-content: center;
   font-family: sans-serif;
   flex-direction: column;
+  cursor: default;
 }
 nav {
   margin: 0;

@@ -12,13 +12,13 @@ export default function Footer() {
         <h4>
           email
           <span style={{ fontWeight: "normal", marginLeft: "30px" }}>
-            yasyazdaniyan@yas.com
+            yazdaniyanyas@gmail.com
           </span>
         </h4>
         <h4>
           Phone
           <span style={{ fontWeight: "normal", marginLeft: "20px" }}>
-            0123456789
+            +46733749613
           </span>
         </h4>
       </div>
