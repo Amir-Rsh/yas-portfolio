@@ -7,7 +7,7 @@ export default function ProjectTwo() {
         Ivana Kupala: a Virtual Reality Experience
       </h1>
       <div style={{ backgroundColor: "rgb(211, 245, 211)" }}>
-        <p id="projectOneText">
+        <p id="projectOneText" style={{ paddingBottom: "30px" }}>
           <h2 style={{ color: "darkgreen" }}>Background</h2>
           Our project aims to create an immersive virtual reality experience
           that brings the Ivana Kupala celebration to life, providing users with
@@ -37,16 +37,17 @@ export default function ProjectTwo() {
               allowFullScreen
             ></iframe>
           </div>
-          <h2 style={{ color: "darkgreen" }}>Cultural Immersion</h2>
+          <h2 style={{ color: "darkgreen" }}>Key Features</h2>
+          <span style={{ fontWeight: "bold" }}>Cultural Immersion:</span>{" "}
           Experience elements inspired by the Ivana Kupala festival, including
-          traditional rituals, music, and folklore. Interactive Elements: Users
-          can engage in various festival activities, such as jumping over
+          traditional rituals, music, and folklore. <br /> <br />{" "}
+          <span style={{ fontWeight: "bold" }}>Interactive Elements:</span>{" "}
+          Users can engage in various festival activities, such as jumping over
           bonfires, weaving flower crowns, and searching for the mythical fern
-          flower. Realistic Environments: High-quality 3D models and animations
-          create a visually stunning and immersive experience. <br /> <br />
-          <h2 style={{ color: "darkgreen" }}>Educational Content</h2>
-          nformative elements embedded within the experien.....
-          <br />
+          flower. <br /> <br />{" "}
+          <span style={{ fontWeight: "bold" }}>Realistic Environments:</span>
+          High-quality 3D models and animations create a visually stunning and
+          immersive experience. <br /> <br />
           More information about our work can be found in this{" "}
           <a
             style={{ textDecorationColor: "darkgreen", color: "darkgreen" }}
