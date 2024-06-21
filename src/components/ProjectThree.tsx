@@ -17,13 +17,13 @@ export default function ProjectThree() {
           the Unity development platform, our application provides valuable
           insights for network planning and optimization by visualizing 5G beams
           as directional vectors in real-time and spatial contexts.
-          Additionally, recognizing the need for flexibi flexibility in
-          demonstrating the application outside the specific physical location
-          of the Ericsson lobby, we developed a virtual reality (VR) version
-          using the Meta Quest 3 headset. This VR version allows users to be
-          virtually "transported" to the lobby, offering the same 5G signal
-          visualization and interaction capabilities. The combination of AR and
-          VR applications ensures a comprehensive tool for understanding and
+          Additionally, recognizing the need for flexibility in demonstrating
+          the application outside the specific physical location of the Ericsson
+          lobby, we developed a virtual reality (VR) version using the Meta
+          Quest 3 headset. This VR version allows users to be virtually
+          "transported" to the lobby, offering the same 5G signal visualization
+          and interaction capabilities. The combination of AR and VR
+          applications ensures a comprehensive tool for understanding and
           optimizing 5G network deployment in various settings. <br />{" "}
           <div
             style={{

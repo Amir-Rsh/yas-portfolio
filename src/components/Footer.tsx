@@ -12,7 +12,12 @@ export default function Footer() {
         <h4>
           email
           <span style={{ fontWeight: "normal", marginLeft: "30px" }}>
-            yazdaniyanyas@gmail.com
+            <a
+              style={{ color: "white", textDecoration: "none" }}
+              href="mailto:yazdaniyanyas@gmail.com"
+            >
+              yazdaniyanyas@gmail.com
+            </a>
           </span>
         </h4>
         <h4>

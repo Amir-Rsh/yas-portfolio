@@ -45,9 +45,13 @@ export default function ProjectTwo() {
           Users can engage in various festival activities, such as jumping over
           bonfires, weaving flower crowns, and searching for the mythical fern
           flower. <br /> <br />{" "}
-          <span style={{ fontWeight: "bold" }}>Realistic Environments:</span>
+          <span style={{ fontWeight: "bold" }}>Realistic Environments:</span>{" "}
           High-quality 3D models and animations create a visually stunning and
           immersive experience. <br /> <br />
+          <span style={{ fontWeight: "bold" }}>Educational Content:</span>{" "}
+          Informative elements embedded within the experience to educate users
+          about the history and significance of the Ivana Kupala celebration.{" "}
+          <br /> <br />
           More information about our work can be found in this{" "}
           <a
             style={{ textDecorationColor: "darkgreen", color: "darkgreen" }}

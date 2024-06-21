@@ -19,8 +19,11 @@ export default function ProjectOne() {
           <span style={{ fontSize: "23px" }}>t</span>
           <span style={{ fontSize: "14px", fontWeight: "bold" }}>0</span>.
           However, during the time it takes for this information to be processed
-          and sent back to the user, the user's perspect perspective shifts from
-          P<span style={{ fontSize: "14px", fontWeight: "bold" }}>1</span> to P
+          and sent back to the user, the user's perspect perspective shifts from{" "}
+          <span style={{ fontWeight: "bold" }}>P</span>
+          <span style={{ fontSize: "14px", fontWeight: "bold" }}>
+            1
+          </span> to <span style={{ fontWeight: "bold" }}>P</span>
           <span style={{ fontSize: "14px", fontWeight: "bold" }}>2</span>,
           altering the image coordinate system due to the change in the user's
           viewpoint. Our thesis addresses the challenge of updating the returned

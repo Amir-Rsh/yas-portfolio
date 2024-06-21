@@ -57,9 +57,9 @@ export default function ProjectFour() {
           </span>{" "}
           The spaceship's texture changes upon collision, offering visual
           feedback to the player. <br /> <br />{" "}
-          <span style={{ fontWeight: "bold" }}>Life Points System:</span> layers
-          lose life points when colliding with asteroids, increasing the stakes
-          and encouraging careful navigation.
+          <span style={{ fontWeight: "bold" }}>Life Points System:</span>{" "}
+          Players lose life points when colliding with asteroids, increasing the
+          stakes and encouraging careful navigation.
           <br /> <br />
           <span style={{ fontWeight: "bold" }}>Camera Tracking:</span> The
           camera follows the spaceship, ensuring the player has a clear view of
