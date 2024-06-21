@@ -31,7 +31,7 @@ export default function Home() {
               3D models with Blender and AutoCAD.
             </span>{" "}
             <span id="techStack">
-              <br /> Teck Stack: C#, Python, C++, Unity, OpenGL, Figma, Blender,
+              <br /> Tech Stack: C#, Python, C++, Unity, OpenGL, Figma, Blender,
               AutoCAD
             </span>
             <br /> <br />
