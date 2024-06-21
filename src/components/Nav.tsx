@@ -16,6 +16,12 @@ export default function Nav() {
   function scrollToProjects() {
     const projects = document.getElementById("projects");
     if (projects) projects.scrollIntoView({ behavior: "smooth" });
+    else {
+      setTimeout(() => {
+        const projects = document.getElementById("projects");
+        if (projects) projects.scrollIntoView({ behavior: "smooth" });
+      }, 200);
+    }
   }
   return (
     <nav>
@@ -27,9 +33,14 @@ export default function Nav() {
           About Me
         </p>
       </Link>
-      <p onClick={scrollToProjects} className="navElement">
-        Projects
-      </p>
+      <Link
+        to={"/"}
+        style={{ textDecoration: "none", color: "rgb(108, 113, 108)" }}
+      >
+        <p onClick={scrollToProjects} className="navElement">
+          Projects
+        </p>
+      </Link>
       <p onClick={scrollToBottom} className="navElement">
         Contact
       </p>

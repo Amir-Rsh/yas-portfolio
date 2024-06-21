@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
 
 export default function Home() {
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
   return (
     <>
       <div id="img-about">
@@ -77,7 +83,7 @@ export default function Home() {
               to the development of more practical and user-friendly AR/MR
               devices.
             </p>
-            <Link to={"/project1"}>
+            <Link onClick={scrollToTop} to={"/project1"}>
               <button className="oddProjectButton">Project Page</button>
             </Link>
           </div>
@@ -124,7 +130,7 @@ export default function Home() {
               floral wreath-making. This project highlights the potential of
               virtual reality in promoting cultural traditions.
             </p>
-            <Link to={"/project2"}>
+            <Link onClick={scrollToTop} to={"/project2"}>
               <button className="evenProjectButton">Project Page</button>
             </Link>
           </div>
@@ -148,7 +154,7 @@ export default function Home() {
               version for remote use, allowing users to experience the 5G
               visualizations in a virtual recreation of the lobby.
             </p>
-            <Link to={"/project3"}>
+            <Link onClick={scrollToTop} to={"/project3"}>
               <button className="oddProjectButton">Project Page</button>
             </Link>
           </div>
@@ -198,7 +204,7 @@ export default function Home() {
               Treasure-Hunt Fighter offers an immersive and dynamic gaming
               experience.
             </p>
-            <Link to={"/project4"}>
+            <Link onClick={scrollToTop} to={"/project4"}>
               <button className="evenProjectButton">Project Page</button>
             </Link>
           </div>

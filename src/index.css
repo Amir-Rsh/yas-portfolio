@@ -158,10 +158,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px 0 50px 0;
+  margin: 50px 0 20px 0;
+  padding-bottom: 40px;
 }
 .pOneImgSize {
-  width: 400px;
+  height: 400px;
+  width: 500px;
 }
 #projectOneText {
   width: 80%;
@@ -169,6 +171,7 @@ footer {
   font-size: 19px;
   word-spacing: 5px;
   line-height: 30px;
+  padding-top: 20px;
 }
 
 @media (max-width: 1350px) {
@@ -185,6 +188,10 @@ footer {
   }
 }
 @media (max-width: 1150px) {
+  .pOneImgSize {
+    height: 250px;
+    width: 350px;
+  }
   .projectInfo {
     width: 300px;
     word-spacing: 3px;
@@ -268,6 +275,7 @@ footer {
 @media (max-width: 590px) {
   .pOneImgSize {
     width: 400px;
+    height: 300px;
   }
   .evenProjectButton {
     margin-bottom: 10px;
@@ -283,6 +291,7 @@ footer {
     border-bottom-left-radius: 0;
     border-top-right-radius: 5%;
     margin: auto;
+    height: 500px;
   }
   #aboutYas {
     padding: 0px;
@@ -308,10 +317,10 @@ footer {
     margin: 0;
   }
   .navElement {
-    margin-left: 12px;
+    margin-left: 14px;
   }
   .navElement-right {
-    margin-right: 12px;
+    margin-right: 14px;
   }
 
   footer {
@@ -344,11 +353,13 @@ footer {
   }
   #yasImage {
     width: 300px;
+    height: 400px;
   }
   nav {
     font-size: 11px !important;
   }
   .pOneImgSize {
     width: 300px;
+    height: 200px;
   }
 }
