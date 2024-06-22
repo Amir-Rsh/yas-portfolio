@@ -62,7 +62,7 @@ export default function Nav() {
           GitHub
         </a>
         <a
-          href="https://drive.google.com/file/d/1ZsloZXWVLR2hBZt4IMt1ih95YH-HdiQi/view?usp=sharing"
+          href="https://drive.google.com/file/d/1sOesXRRCPbr5Vdccr8tyaSM-BxdONSVe/view?usp=sharing"
           target="_blank"
           style={{ textDecoration: "none", color: "rgb(108, 113, 108)" }}
           className="navElement-right"
