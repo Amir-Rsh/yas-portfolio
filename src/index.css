@@ -302,7 +302,7 @@ footer {
     border-top-right-radius: 0;
     margin: auto;
     border-bottom-left-radius: 5%;
-    height: 300px;
+    height: fit-content;
   }
   #secondAboutParagraph {
     font-size: 0px;
