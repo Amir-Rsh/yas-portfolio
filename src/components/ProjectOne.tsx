@@ -1,3 +1,7 @@
+import projectOneImageOne from "../assets/IMG-20240620-WA0007.jpg";
+import projectOneImageTwo from "../assets/image.jpg";
+import projectOneImageThree from "../assets/cameratrajectory-ezgif.com-video-to-gif-converter.gif";
+
 export default function ProjectOne() {
   return (
     <>
@@ -41,11 +45,7 @@ export default function ProjectOne() {
               margin: "50px 0px 50px 0px",
             }}
           >
-            <img
-              className="pOneImgSize"
-              src="https://i.ibb.co/vVb9HH1/IMG-20240620-WA0007.jpg"
-              alt=""
-            />
+            <img className="pOneImgSize" src={projectOneImageOne} alt="" />
           </div>
           <h2 style={{ color: "darkgreen" }}>Result</h2>
           To evaluate the effectiveness of our homography-based estimation
@@ -75,16 +75,8 @@ export default function ProjectOne() {
           .
         </p>
         <div id="projectOneImages">
-          <img
-            className="pOneImgSize"
-            src="https://i.ibb.co/VQVZcRz/image.gif"
-            alt=""
-          />
-          <img
-            className="pOneImgSize"
-            src="https://i.ibb.co/p0QxmMd/cameratrajectory-ezgif-com-video-to-gif-converter.gif"
-            alt=""
-          />
+          <img className="pOneImgSize" src={projectOneImageTwo} alt="" />
+          <img className="pOneImgSize" src={projectOneImageThree} alt="" />
         </div>
       </div>
     </>

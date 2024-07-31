@@ -1,4 +1,13 @@
 import { Link } from "react-router-dom";
+import yasPicture from "../assets/IMG-20240610-WA0007.jpg";
+import projectOneImageOne from "../assets/IMG-20240620-WA0007.jpg";
+import projectOneImageTwo from "../assets/image.jpg";
+import projectTwoImageOne from "../assets/IMG-20240620-WA0011.jpg";
+import projectTwoImageTwo from "../assets/IMG-20240620-WA0012.jpg";
+import projectThreeImageOne from "../assets/IMG-20240620-WA0003.jpg";
+import projectThreeImageTwo from "../assets/IMG-20240620-WA0002.jpg";
+import projectFourImageOne from "../assets/IMG-20240620-WA0014.jpg";
+import projectFourImageTwo from "../assets/IMG-20240620-WA0015.jpg";
 
 export default function Home() {
   function scrollToTop() {
@@ -10,11 +19,7 @@ export default function Home() {
   return (
     <>
       <div id="img-about">
-        <img
-          id="yasImage"
-          src="https://i.ibb.co/YZLLyFZ/IMG-20240610-WA0007.jpg"
-          alt=""
-        />
+        <img id="yasImage" src={yasPicture} alt="" />
         <div id="aboutYas">
           <h1 id="yasTitle">Yas Yazdanian</h1>
           <p id="yasProfession">Extended Reality Developer</p>
@@ -88,30 +93,14 @@ export default function Home() {
             </Link>
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <img
-              className="projectImages"
-              src="https://i.ibb.co/vVb9HH1/IMG-20240620-WA0007.jpg"
-              alt=""
-            />
-            <img
-              className="projectImages"
-              src="https://i.ibb.co/VQVZcRz/image.gif"
-              alt=""
-            />
+            <img className="projectImages" src={projectOneImageOne} alt="" />
+            <img className="projectImages" src={projectOneImageTwo} alt="" />
           </div>
         </div>
         <div className="projects-div">
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <img
-              className="projectImages"
-              src="https://i.ibb.co/ZJV5GnT/IMG-20240620-WA0011.jpg"
-              alt=""
-            />
-            <img
-              className="projectImages"
-              src="https://i.ibb.co/W0ywPMV/IMG-20240620-WA0012.jpg"
-              alt=""
-            />
+            <img className="projectImages" src={projectTwoImageOne} alt="" />
+            <img className="projectImages" src={projectTwoImageTwo} alt="" />
           </div>
 
           <div className="projectInfo">
@@ -159,30 +148,14 @@ export default function Home() {
             </Link>
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <img
-              className="projectImages"
-              src="https://i.ibb.co/zRBVyjQ/IMG-20240620-WA0003.jpg"
-              alt=""
-            />
-            <img
-              className="projectImages"
-              src="https://i.ibb.co/1Qk5v67/IMG-20240620-WA0002.jpg"
-              alt=""
-            />
+            <img className="projectImages" src={projectThreeImageOne} alt="" />
+            <img className="projectImages" src={projectThreeImageTwo} alt="" />
           </div>
         </div>
         <div className="projects-div">
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <img
-              className="projectImages"
-              src="https://i.ibb.co/xjJzSY4/IMG-20240620-WA0014.jpg"
-              alt=""
-            />
-            <img
-              className="projectImages"
-              src="https://i.ibb.co/myBMYVv/IMG-20240620-WA0015.jpg"
-              alt=""
-            />
+            <img className="projectImages" src={projectFourImageOne} alt="" />
+            <img className="projectImages" src={projectFourImageTwo} alt="" />
           </div>
 
           <div className="projectInfo">
