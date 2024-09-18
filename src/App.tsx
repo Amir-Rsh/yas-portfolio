@@ -7,6 +7,7 @@ import ProjectOne from "./components/ProjectOne";
 import ProjectTwo from "./components/ProjectTwo";
 import ProjectThree from "./components/ProjectThree";
 import ProjectFour from "./components/ProjectFour";
+import ProjectFive from "./components/ProjectFive";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/project2" element={<ProjectTwo />} />
         <Route path="/project3" element={<ProjectThree />} />
         <Route path="/project4" element={<ProjectFour />} />
+        <Route path="/project5" element={<ProjectFive />} />
       </Routes>
       <Footer />
     </>

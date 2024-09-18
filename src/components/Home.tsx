@@ -8,6 +8,8 @@ import projectThreeImageOne from "../assets/IMG-20240620-WA0003.jpg";
 import projectThreeImageTwo from "../assets/IMG-20240620-WA0002.jpg";
 import projectFourImageOne from "../assets/IMG-20240620-WA0014.jpg";
 import projectFourImageTwo from "../assets/IMG-20240620-WA0015.jpg";
+import projectFiveImageOne from "../assets/1726137723033.jpeg";
+import projectFiveImageTwo from "../assets/Screenshot from 2024-09-18 12-31-09.png";
 
 export default function Home() {
   function scrollToTop() {
@@ -180,6 +182,31 @@ export default function Home() {
             <Link onClick={scrollToTop} to={"/project4"}>
               <button className="evenProjectButton">Project Page</button>
             </Link>
+          </div>
+        </div>
+        <div className="projects-div">
+          <div className="projectInfo">
+            <h2 style={{ color: "darkgreen" }}>Plantiverse</h2>
+            <p className="textOfProject">
+              Plant parenthood can be tricky, especially for beginners. We were
+              inspired by the idea of using XR and AI to simplify plant care,
+              helping users identify plants, track their needs, and remember
+              essential care instructions in a more immersive way. The goal was
+              to combine technology with nature to create a seamless and fun
+              experience for plant lovers. <br />
+              <br />
+              Plantiverse, which earned the Runner-Up Prize at XR Hack 2024 in
+              Stockholm, reflects this vision. We're proud of its success as an
+              innovative tool that brings plant lovers closer to nature through
+              cutting-edge technology.
+            </p>
+            <Link onClick={scrollToTop} to={"/project5"}>
+              <button className="oddProjectButton">Project Page</button>
+            </Link>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <img className="projectImages" src={projectFiveImageOne} alt="" />
+            <img className="projectImages" src={projectFiveImageTwo} alt="" />
           </div>
         </div>
       </div>
