@@ -10,6 +10,8 @@ import projectFourImageOne from "../assets/IMG-20240620-WA0014.jpg";
 import projectFourImageTwo from "../assets/IMG-20240620-WA0015.jpg";
 import projectFiveImageOne from "../assets/1726137723033.jpeg";
 import projectFiveImageTwo from "../assets/Screenshot from 2024-09-18 12-31-09.png";
+import projectSixImageOne from "../assets/Screenshot from 2024-03-21 06-52-36-portrait.png";
+import projectSevenImageOne from "../assets/Screenshot_20240611-202102-portrait.png";
 
 export default function Home() {
   function scrollToTop() {
@@ -207,6 +209,122 @@ export default function Home() {
           <div style={{ display: "flex", flexDirection: "column" }}>
             <img className="projectImages" src={projectFiveImageOne} alt="" />
             <img className="projectImages" src={projectFiveImageTwo} alt="" />
+          </div>
+        </div>
+        <div className="projects-div">
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <img width={350} src={projectSixImageOne} alt="" />
+          </div>
+
+          <div className="projectInfo">
+            <h2 style={{ color: "darkgreen" }}>Project News</h2>
+            <p className="textOfProject">
+              News was built using JavaScript and React. PSQL was used for the
+              backend and the project was hosted using Render and Netlify. The
+              aim of the project was to showcase my frontend and backend
+              abilities.
+              <br />
+              <br />
+              The users can create an acount and login or use the website as
+              guest. the registered users have the ability to leave comments and
+              vote on different articles. <br /> <br />
+              Tech Stack: <br />
+              <br />
+              Node <br />
+              PSQL <br />
+              JavaScript <br />
+              Bootstrap <br />
+              Express <br /> Render <br /> Netlify <br />
+              react
+            </p>
+            <a
+              className="evenProjectButton"
+              style={{
+                textDecoration: "none",
+                color: "white",
+                padding: "20px",
+              }}
+              href="https://my-cool-news-app.netlify.app/"
+            >
+              Project Link
+            </a>
+          </div>
+        </div>
+        <div className="projects-div">
+          <div className="projectInfo">
+            <h2 style={{ color: "darkgreen" }}>Peran Clothing</h2>
+            <p className="textOfProject">
+              The aim of Peran clothing was to showcase my knowledge of
+              TypeScript and also my interest in development of shopping
+              websites that require technologies like Stripe which was used for
+              this app. cookie JS was used to store temporary basket
+              information. <br />
+              <br />
+              the users can add items to their basket and choose different
+              colors and are able to use the sandbox payment on stripe for
+              checkout. <br /> <br /> Tech Stack:
+              <br /> <br />
+              React <br /> TypeScript <br /> MongoDB <br /> Cookie JS <br />
+              Supertest <br />
+              Stripe <br /> <br /> <br />
+            </p>
+            <a
+              className="oddProjectButton"
+              style={{
+                textDecoration: "none",
+                color: "white",
+                padding: "20px",
+              }}
+              href="https://peran-clothing.netlify.app/"
+            >
+              Project Link
+            </a>
+          </div>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <img width={350} src={projectSevenImageOne} alt="" />
+          </div>
+        </div>
+        <div className="projects-div">
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <iframe
+              style={{
+                borderRadius: 30,
+                borderStyle: "solid",
+                borderColor: "black",
+                borderWidth: 5,
+                marginTop: 10,
+                justifySelf: "center",
+              }}
+              height="600"
+              src="https://www.youtube.com/embed/-urPIJykL7k?si=fNiC-vlu07CpJDuc"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            ></iframe>{" "}
+          </div>
+
+          <div className="projectInfo">
+            <h2 style={{ color: "darkgreen" }}>Animal Rescues</h2>
+            <p className="textOfProject">
+              This project was made to showcase my React Native abilities and my
+              interest in mobile first app development. MapView was used to
+              implement the location functionality and MongoDB was used to store
+              the data.
+              <br />
+              <br />
+              the users can report injured animals by pinning their location on
+              the map and also check back on them by tracking their treatment
+              process afterwards. <br /> <br />
+              Tech Stack: <br />
+              <br />
+              React Native <br />
+              MapView <br />
+              MongoDB <br />
+              Render <br />
+              Expo <br /> Express <br /> Node <br />
+              Supertest
+            </p>
           </div>
         </div>
       </div>
