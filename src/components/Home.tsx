@@ -41,7 +41,7 @@ export default function Home() {
             </span>{" "}
             <span id="techStack">
               <br /> Tech Stack: C#, Python, C++, Unity, OpenGL, Figma, Blender,
-              AutoCAD
+              AutoCAD, JavaScript, TypeScript, React, Node, Jest, React Native
             </span>
             <br /> <br />
             <span id="additionalAboutInfo">
@@ -237,16 +237,8 @@ export default function Home() {
               Express <br /> Render <br /> Netlify <br />
               react
             </p>
-            <a
-              className="evenProjectButton"
-              style={{
-                textDecoration: "none",
-                color: "white",
-                padding: "20px",
-              }}
-              href="https://my-cool-news-app.netlify.app/"
-            >
-              Project Link
+            <a href="https://my-cool-news-app.netlify.app/">
+              <button className="evenProjectButton">Project Page</button>
             </a>
           </div>
         </div>
@@ -268,16 +260,9 @@ export default function Home() {
               Supertest <br />
               Stripe <br /> <br /> <br />
             </p>
-            <a
-              className="oddProjectButton"
-              style={{
-                textDecoration: "none",
-                color: "white",
-                padding: "20px",
-              }}
-              href="https://peran-clothing.netlify.app/"
-            >
-              Project Link
+
+            <a href="https://peran-clothing.netlify.app/">
+              <button className="oddProjectButton">Project Page</button>
             </a>
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
