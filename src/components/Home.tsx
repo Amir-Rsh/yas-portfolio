@@ -26,7 +26,7 @@ export default function Home() {
         <img id="yasImage" src={yasPicture} alt="" />
         <div id="aboutYas">
           <h1 id="yasTitle">Yas Yazdanian</h1>
-          <p id="yasProfession">Extended Reality Developer</p>
+          <p id="yasProfession">Extended Reality And Frontend Developer</p>
           <p id="aboutMeInfo">
             Hi there {":)"} welcome to my portfolio. I'm Yas, an XR developer
             with a Master's degree in Virtual and Augmented Reality from Lund
