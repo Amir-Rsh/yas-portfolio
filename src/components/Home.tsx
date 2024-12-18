@@ -288,29 +288,6 @@ export default function Home() {
               allowFullScreen
             ></iframe>{" "}
           </div>
-
-          <div className="projectInfo">
-            <h2 style={{ color: "darkgreen" }}>Animal Rescues</h2>
-            <p className="textOfProject">
-              This project was made to showcase my React Native abilities and my
-              interest in mobile first app development. MapView was used to
-              implement the location functionality and MongoDB was used to store
-              the data.
-              <br />
-              <br />
-              the users can report injured animals by pinning their location on
-              the map and also check back on them by tracking their treatment
-              process afterwards. <br /> <br />
-              Tech Stack: <br />
-              <br />
-              React Native <br />
-              MapView <br />
-              MongoDB <br />
-              Render <br />
-              Expo <br /> Express <br /> Node <br />
-              Supertest
-            </p>
-          </div>
         </div>
       </div>
     </>
