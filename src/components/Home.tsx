@@ -269,26 +269,6 @@ export default function Home() {
             <img width={350} src={projectSevenImageOne} alt="" />
           </div>
         </div>
-        <div className="projects-div">
-          <div style={{ display: "flex", flexDirection: "column" }}>
-            <iframe
-              style={{
-                borderRadius: 30,
-                borderStyle: "solid",
-                borderColor: "black",
-                borderWidth: 5,
-                marginTop: 10,
-                justifySelf: "center",
-              }}
-              height="600"
-              src="https://www.youtube.com/embed/-urPIJykL7k?si=fNiC-vlu07CpJDuc"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>{" "}
-          </div>
-        </div>
       </div>
     </>
   );
