@@ -1,15 +1,5 @@
-import { Link } from "react-router-dom";
 import andromachiPicture from "../assets/andromachi.jpeg";
-import projectOneImageOne from "../assets/IMG-20240620-WA0007.jpg";
-import projectOneImageTwo from "../assets/image.jpg";
-import projectTwoImageOne from "../assets/IMG-20240620-WA0011.jpg";
-import projectTwoImageTwo from "../assets/IMG-20240620-WA0012.jpg";
-import projectThreeImageOne from "../assets/IMG-20240620-WA0003.jpg";
-import projectThreeImageTwo from "../assets/IMG-20240620-WA0002.jpg";
-import projectFourImageOne from "../assets/IMG-20240620-WA0014.jpg";
-import projectFourImageTwo from "../assets/IMG-20240620-WA0015.jpg";
-import projectFiveImageOne from "../assets/1726137723033.jpeg";
-import projectFiveImageTwo from "../assets/Screenshot from 2024-09-18 12-31-09.png";
+
 import projectSixImageOne from "../assets/Screenshot from 2024-03-21 06-52-36-portrait.png";
 import projectSevenImageOne from "../assets/Screenshot_20240611-202102-portrait.png";
 
