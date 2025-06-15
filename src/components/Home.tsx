@@ -4,12 +4,6 @@ import projectSixImageOne from "../assets/Screenshot from 2024-03-21 06-52-36-po
 import projectSevenImageOne from "../assets/Screenshot_20240611-202102-portrait.png";
 
 export default function Home() {
-  function scrollToTop() {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }
   return (
     <>
       <div id="img-about">
