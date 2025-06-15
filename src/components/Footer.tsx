@@ -8,22 +8,19 @@ export default function Footer() {
   return (
     <footer>
       <div id="contactDetails">
-        <h4>Yas Yazdanian</h4>
+        <h4>Andromachi Karouta</h4>
         <h4>
           email
           <span style={{ fontWeight: "normal", marginLeft: "30px" }}>
-            <a
-              style={{ color: "white", textDecoration: "none" }}
-              href="mailto:yazdaniyanyas@gmail.com"
-            >
-              yazdaniyanyas@gmail.com
+            <a style={{ color: "white", textDecoration: "none" }} href="">
+              your Email here
             </a>
           </span>
         </h4>
         <h4>
           Phone
           <span style={{ fontWeight: "normal", marginLeft: "20px" }}>
-            +46733749613
+            your number here
           </span>
         </h4>
       </div>

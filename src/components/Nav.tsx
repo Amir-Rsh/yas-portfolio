@@ -47,22 +47,14 @@ export default function Nav() {
       <div style={{ marginLeft: "auto", display: "flex" }}>
         <a
           style={{ textDecoration: "none", color: "rgb(108, 113, 108)" }}
-          href="https://www.linkedin.com/in/yas-yazdanian-221038273/"
+          href="https://gr.linkedin.com/in/andromachi-karouta"
           target="_blank"
           className="navElement-right"
         >
           LinkedIn
         </a>
         <a
-          style={{ textDecoration: "none", color: "rgb(108, 113, 108)" }}
-          href="https://github.com/yasyazdaniyan"
-          target="_blank"
-          className="navElement-right"
-        >
-          GitHub
-        </a>
-        <a
-          href="https://drive.google.com/file/d/1sOesXRRCPbr5Vdccr8tyaSM-BxdONSVe/view?usp=sharing"
+          href=""
           target="_blank"
           style={{ textDecoration: "none", color: "rgb(108, 113, 108)" }}
           className="navElement-right"
